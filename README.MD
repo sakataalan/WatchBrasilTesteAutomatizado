@@ -52,6 +52,11 @@ Antes de executar, certifique-se que todas as dependencias foram instaladas roda
 ```
 pip install -r requirements.txt
 ```
+Adicionar o usuário e senha no arquivo configuration/config.py:
+```
+USERNAME = "teste"
+PASSWORD = "123"
+```
 ### Executando
 Para executar os testes automatizados, execute o seguinte comando:
 ```
